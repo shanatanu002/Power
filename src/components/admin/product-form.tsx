@@ -44,14 +44,16 @@ const formSchema = z.object({
   usageType: z
     .array(z.enum(["RESIDENTIAL", "COMMERCIAL", "INDUSTRIAL", "INSTITUTIONAL"]))
     .min(1, "Select at least one usage type"),
-  price: z.coerce.number({ message: "Enter a valid price" }).positive("Price must be positive"),
+  // Required numbers — inputs use valueAsNumber:true; NaN rejected by z.number()
+  price: z.number({ message: "Enter a valid price" }).positive("Price must be positive"),
+  gstRate: z.number({ message: "Select a GST rate" }).min(0).max(28),
+  stock: z.number({ message: "Enter stock quantity" }).int().min(0, "Cannot be negative"),
+  // Optional numbers kept as strings; converted before API call
   salePrice: z.string().optional(),
-  gstRate: z.coerce.number().min(0).max(28),
   wattage: z.string().optional(),
   voltage: z.string().optional(),
   capacity: z.string().optional(),
   warranty: z.string().optional(),
-  stock: z.coerce.number({ message: "Enter stock quantity" }).int().min(0, "Cannot be negative"),
   isAvailable: z.boolean(),
   isFeatured: z.boolean(),
   isNewArrival: z.boolean(),
@@ -473,7 +475,7 @@ export function ProductForm({ brands, categories, initialData }: ProductFormProp
                   <label className="block text-sm font-medium text-slate-700 mb-1.5">
                     Price (₹) <span className="text-red-500">*</span>
                   </label>
-                  <Input type="number" step="0.01" min="0" placeholder="12500" {...register("price")} />
+                  <Input type="number" step="0.01" min="0" placeholder="12500" {...register("price", { valueAsNumber: true })} />
                   <FieldError msg={errors.price?.message} />
                 </div>
                 <div>
@@ -709,7 +711,7 @@ export function ProductForm({ brands, categories, initialData }: ProductFormProp
                 <label className="block text-sm font-medium text-slate-700 mb-1.5">
                   Stock Quantity <span className="text-red-500">*</span>
                 </label>
-                <Input type="number" min="0" placeholder="0" {...register("stock")} />
+                <Input type="number" min="0" placeholder="0" {...register("stock", { valueAsNumber: true })} />
                 <FieldError msg={errors.stock?.message} />
               </div>
 

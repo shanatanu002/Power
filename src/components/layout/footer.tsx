@@ -74,7 +74,7 @@ export function Footer() {
               Get Free Quote <ArrowRight className="w-4 h-4" />
             </Link>
             <a
-              href={`tel:${process.env.NEXT_PUBLIC_COMPANY_PHONE || "+919876543210"}`}
+              href={`tel:${process.env.NEXT_PUBLIC_COMPANY_PHONE || "+918090277689"}`}
               className="inline-flex items-center gap-2 px-6 py-3 bg-white/20 border-2 border-slate-900/20 text-slate-900 rounded-xl font-semibold hover:bg-white/30 transition-colors"
             >
               <Phone className="w-4 h-4" />
@@ -107,7 +107,7 @@ export function Footer() {
             </p>
 
             <div className="space-y-3 mb-6">
-              <a href="tel:+919876543210" className="flex items-center gap-3 text-sm hover:text-amber-400 transition-colors group">
+              <a href="tel:+918090277689" className="flex items-center gap-3 text-sm hover:text-amber-400 transition-colors group">
                 <div className="w-8 h-8 bg-slate-800 rounded-lg flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
                   <Phone className="w-4 h-4 text-amber-400" />
                 </div>
@@ -123,7 +123,7 @@ export function Footer() {
                 <div className="w-8 h-8 bg-slate-800 rounded-lg flex items-center justify-center shrink-0">
                   <MapPin className="w-4 h-4 text-amber-400" />
                 </div>
-                <span className="text-slate-400">123, Solar Street, Energy Nagar,<br />India – 400001</span>
+                <span className="text-slate-400">117/Q/147, Sharda Nagar, Kanpur<br />India – 208005</span>
               </div>
             </div>
 

@@ -223,7 +223,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
           <div className="grid grid-cols-2 gap-3">
             <a
-              href={`https://wa.me/919876543210?text=${whatsappMsg}`}
+              href={`https://wa.me/918090277689?text=${whatsappMsg}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -232,7 +232,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
                 WhatsApp Inquiry
               </Button>
             </a>
-            <a href="tel:+919876543210">
+            <a href="tel:+918090277689">
               <Button variant="outline" className="w-full">
                 <Phone className="w-4 h-4" />
                 Call for Quote

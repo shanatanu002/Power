@@ -176,7 +176,7 @@ export function ServicesContent() {
             <Link href="/contact">
               <Button size="xl" variant="solar">Get Free Quote <ArrowRight className="w-5 h-5" /></Button>
             </Link>
-            <a href="tel:+919876543210">
+            <a href="tel:+918090277689">
               <Button size="xl" variant="outline-white"><Phone className="w-5 h-5" /> Call Now</Button>
             </a>
           </div>

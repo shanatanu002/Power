@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { MessageCircle, X, Phone, ExternalLink } from "lucide-react";
 
-const whatsappNumber = process.env.NEXT_PUBLIC_COMPANY_WHATSAPP || "919876543210";
+const whatsappNumber = process.env.NEXT_PUBLIC_COMPANY_WHATSAPP || "918090277689";
 const whatsappMessage = encodeURIComponent(
   "Hello! I'm interested in solar solutions from Yati Powers. Could you please provide more information?"
 );
@@ -66,7 +66,7 @@ export function WhatsAppButton() {
                   Chat Now
                 </a>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918090277689"
                   className="flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl px-3 py-2.5 text-sm font-semibold transition-colors"
                 >
                   <Phone className="w-4 h-4" />

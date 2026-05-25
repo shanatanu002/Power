@@ -83,7 +83,7 @@ export function RegisterForm() {
           </div>
           <div>
             <label className="block text-sm font-medium text-slate-700 mb-1.5">Mobile Number</label>
-            <Input placeholder="9876543210" {...register("phone")} />
+            <Input placeholder="8090277689" {...register("phone")} />
             {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone.message}</p>}
           </div>
           <div>

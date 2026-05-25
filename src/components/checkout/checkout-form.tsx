@@ -157,7 +157,7 @@ export function CheckoutForm() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-1.5">Mobile Number *</label>
-                  <Input placeholder="9876543210" {...register("phone")} />
+                  <Input placeholder="8090277689" {...register("phone")} />
                   {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone.message}</p>}
                 </div>
               </div>
@@ -187,7 +187,7 @@ export function CheckoutForm() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-1.5">Pincode *</label>
-                  <Input placeholder="400001" {...register("pincode")} maxLength={6} />
+                  <Input placeholder="208005" {...register("pincode")} maxLength={6} />
                   {errors.pincode && <p className="text-red-500 text-xs mt-1">{errors.pincode.message}</p>}
                 </div>
               </div>

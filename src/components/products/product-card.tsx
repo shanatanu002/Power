@@ -98,7 +98,7 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
             <Link href={`/products/${product.slug}`}>
               <Button size="sm" variant="outline">View Details</Button>
             </Link>
-            <a href={`https://wa.me/919876543210?text=${whatsappMsg}`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/918090277689?text=${whatsappMsg}`} target="_blank" rel="noopener noreferrer">
               <Button size="sm" variant="ghost" className="text-green-600 hover:text-green-700 hover:bg-green-50">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp

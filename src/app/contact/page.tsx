@@ -30,7 +30,7 @@ export default function ContactPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
           </div>
-          <p className="text-sm font-medium">123, Solar Street, Energy Nagar, India</p>
+          <p className="text-sm font-medium">117/Q/147, Sharda Nagar, Kanpur India</p>
           <p className="text-xs">Google Maps integration — add your API key in .env</p>
         </div>
       </section>
