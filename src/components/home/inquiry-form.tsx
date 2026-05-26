@@ -70,7 +70,7 @@ export function InquiryForm() {
 
               <div className="space-y-4">
                 {[
-                  { icon: <Phone className="w-5 h-5" />, label: "Call Us", value: "+91 98765 43210", href: "tel:+918090277689" },
+                  { icon: <Phone className="w-5 h-5" />, label: "Call Us", value: "+91 8090277689", href: "tel:+918090277689" },
                   { icon: <Mail className="w-5 h-5" />, label: "Email Us", value: "info@yatipowers.com", href: "mailto:info@yatipowers.com" },
                   { icon: <MapPin className="w-5 h-5" />, label: "Visit Us", value: "123 Solar Street, Energy Nagar, India", href: "#" },
                 ].map((item) => (

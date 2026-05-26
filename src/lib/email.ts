@@ -59,7 +59,7 @@ export async function sendOrderConfirmation(
           <hr style="margin: 20px 0; border: none; border-top: 1px solid #e2e8f0;">
           <p style="color: #64748b; font-size: 14px;">
             Questions? Contact us at <a href="mailto:info@yatipowers.com" style="color: #f59e0b;">info@yatipowers.com</a>
-            or call <a href="tel:+918090277689" style="color: #f59e0b;">+91 98765 43210</a>
+            or call <a href="tel:+918090277689" style="color: #f59e0b;">+91 8090277689</a>
           </p>
         </div>
         <div style="background: #1e293b; padding: 20px; text-align: center;">

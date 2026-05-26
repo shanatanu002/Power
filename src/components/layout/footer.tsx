@@ -111,7 +111,7 @@ export function Footer() {
                 <div className="w-8 h-8 bg-slate-800 rounded-lg flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
                   <Phone className="w-4 h-4 text-amber-400" />
                 </div>
-                +91 98765 43210
+                +91 8090277689
               </a>
               <a href="mailto:info@yatipowers.com" className="flex items-center gap-3 text-sm hover:text-amber-400 transition-colors group">
                 <div className="w-8 h-8 bg-slate-800 rounded-lg flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">

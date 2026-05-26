@@ -62,7 +62,7 @@ export function Header() {
             <span className="flex items-center gap-1.5">
               <Phone className="w-3 h-3 text-amber-400" />
               <a href={`tel:${process.env.NEXT_PUBLIC_COMPANY_PHONE}`} className="hover:text-amber-400 transition-colors">
-                +91 98765 43210
+                +91 8090277689
               </a>
             </span>
             <span>info@yatipowers.com</span>
